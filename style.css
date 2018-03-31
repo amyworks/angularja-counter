@@ -1,0 +1,45 @@
+body {
+	background:#333;
+	color:#ededed;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1em;
+}
+
+section {
+	text-align: center;
+	margin:7% auto;
+	padding:10px;
+}
+
+img {
+	max-width:100%;
+}
+
+p {
+	font-size:2.5em;
+}
+
+span {
+	color:#adf442;
+}
+
+button {
+	background:transparent;
+	border:3px solid #ededed;
+	border-radius:20px;
+	padding:15px 25px;
+	color:#ededed;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size:.75em;
+}
+
+button:first-child {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	border:3px solid #adf442;
+	border-radius:20px;
+	color:#adf442;
+}

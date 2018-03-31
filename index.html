@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="counter">
+	<head>
+		<title>AngularJS Counter</title>
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+	</head>
+
+	<body ng-controller="CounterController as counter">
+		<section>
+			<img src="lives.png" alt="Space Invaders">
+			<p>Lives: <span>{{ counter.number }}</span></p>
+			<button id="increment" ng-click="counter.increment()">Increment</button>
+			<button id="decrement" ng-click="counter.decrement()">Decrement</button>
+		</section>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+		<script src="app.js"></script> 
+	</body>
+
+</html>
